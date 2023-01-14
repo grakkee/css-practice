@@ -1,0 +1,4 @@
+/*changing html elements by attribute*/
+a[href] {
+    color: green;
+}

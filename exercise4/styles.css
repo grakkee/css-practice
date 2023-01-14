@@ -1,0 +1,4 @@
+/*using the univeral identifier to change all elements in html file*/
+* {
+    color: red;
+}

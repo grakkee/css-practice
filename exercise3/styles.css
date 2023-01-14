@@ -1,0 +1,10 @@
+/*using external css to style html elements*/
+p {
+    color: orange;
+}
+h1 {
+    color: green;
+}
+span {
+    color: violet;
+}
