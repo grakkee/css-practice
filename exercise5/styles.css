@@ -1,6 +1,6 @@
 /*styling html elements by type*/
 h1 {
-    color: blue;
+    color: #0000ff; /*hexadecimal color*/
 }
 h2 {
     color: purple;

@@ -1,4 +1,4 @@
 /*using the univeral identifier to change all elements in html file*/
 * {
-    color: red;
+    color: rgb(255, 0, 0); /*rgb color*/
 }

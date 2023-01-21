@@ -1,0 +1,8 @@
+/*change direct sibling elements using the adjacent sibling selector*/
+section + p {
+    background-color: aqua;
+}
+span + p {
+    color: springgreen;
+    background-color: darkviolet;
+}

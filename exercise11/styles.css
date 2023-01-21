@@ -1,0 +1,9 @@
+/*changing the direct child of an element*/
+section > p {
+    background-color: pink;
+}
+
+div > p span {
+    color: yellow;
+    background-color: darkblue;
+}

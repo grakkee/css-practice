@@ -1,0 +1,9 @@
+/*styling lists*/
+ul {
+    color: aquamarine;
+    list-style-type: square; /*there exists a predefined list of list styles, 
+    or you can include a path to an image to set the markers using list-style-image
+    however, you should still include a style type, even when using an image, in case the image
+    does not want to load. list-style-image takes higher priority by default*/
+    list-style-position: inside;
+}

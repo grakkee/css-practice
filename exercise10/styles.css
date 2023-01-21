@@ -1,0 +1,8 @@
+/*Alter elements that have descendant (all children of parent element) relationships*/
+div h1 {
+    color: green;
+}
+div span {
+    color: purple;
+    background-color: pink;
+}

@@ -1,0 +1,9 @@
+/*changing sibling elements using general sibling selector*/
+section ~ p {
+    background-color: violet;
+}
+
+p ~ span {
+    color: crimson;
+    background-color: pink;
+}

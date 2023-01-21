@@ -1,0 +1,23 @@
+/*Using text decoration lines to style elements*/
+h1 {
+    color: #ff0055;
+    text-decoration-line: line-through;
+    text-decoration-color: violet;
+    text-decoration-style: solid;
+}
+h2 {
+    color: #667788;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy
+}
+p {
+    color: #0099dd;
+    text-decoration-line: overline;
+    text-decoration-color: seagreen;
+    text-decoration-style: dashed
+}
+a {
+    color: #004400;
+    text-decoration-line: none;
+}

@@ -1,0 +1,29 @@
+/*styling elements with text transformations and fonts*/
+* {
+    /*there are two main font families: serif and sans-serif. 
+     when choosing fonts, always have a back-up font for devices that might not support the first choice
+     and include a general font-family at the end for the worst-case scenario (left-right is read hightest-lowest priority)
+     or alternatively, use a google font*/
+    font-family: Arial "Times New Roman" sans-serif;
+}
+h1 {
+    color: purple;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 12px;
+    font-style: normal;
+}
+p {
+    color: darkblue;
+    text-transform: lowercase;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
+}
+h2 {
+    color: darkgreen;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: oblique;
+}
