@@ -1,0 +1,14 @@
+/*overflow property.*/
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #ff006a;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  img {
+    width: 300px;
+    height: 300px;
+  }

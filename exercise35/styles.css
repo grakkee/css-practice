@@ -1,0 +1,20 @@
+/*cursor property: none, help, pointer, not-allowed, progress, weight, grab, text, zoom-in, zoom-out*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+button {
+  padding: 20px 60px;
+  background-image: linear-gradient(
+    to bottom right,
+    #5dffff,
+    #ff59f7
+  );
+  border: none;
+  border-radius: 60px;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}

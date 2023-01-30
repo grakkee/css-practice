@@ -1,0 +1,12 @@
+/*opacity*/
+
+img {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+  }
+  
+  h1 {
+    color: rgba(255, 0, 0, 0.5);
+  }
+  
