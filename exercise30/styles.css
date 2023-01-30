@@ -1,0 +1,26 @@
+/*transitions!!!*/
+
+/*note on transition-timing property:
+there are six options: ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier(make custom speeds in chrome dev tools)*/ 
+
+/*transition duration and delay can take args in s or ms*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+h1 {
+  font-size: 2rem;
+  color: yellow;
+  background-color: black;
+  font-family: "Roboto";
+  text-align: center;
+  transition-property: color, background-color;
+  transition-duration: 3s, 3s;
+  transition-timing-function: ease-out;
+  transition-delay: 2s, 2s;
+
+}
+
+h1:hover{
+    color: black;
+    background-color: yellow;
+}

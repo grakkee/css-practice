@@ -1,0 +1,21 @@
+/*box-sizing properites can affect the size of an element.
+- border-box ensures the entire element maintains the given size
+- content-box (default) makes it so the border and padding add to the size of the element, increasing its overall size from the given properites*/
+
+.first-div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #ffe927;
+    background-color: #ef476f;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.second-div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #073b4c;
+    background-color: #06d6a0;
+    padding: 20px;
+    box-sizing: border-box;
+}

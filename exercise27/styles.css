@@ -1,0 +1,17 @@
+/*exploring the z-index*/
+/*each property has a default index of zero.
+by altering it, you can decide how the elements layer on top of each other*/
+
+.first-img {
+    width: 200px;
+    height: 200px;
+}
+
+.second-img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}

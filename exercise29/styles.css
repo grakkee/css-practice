@@ -1,0 +1,12 @@
+/*transform property*/
+
+img {
+    width: 100px;
+    height: 100px;
+    transform: translate(100px, 100px) scale(2, 2) skew(30deg);
+    transition: 2s;
+  }
+
+  img:hover {
+    transform: rotate(90deg);
+  }

@@ -1,0 +1,86 @@
+/*exploring the top, bottom, left, and right properties*/
+
+.parent1 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ff0a54;
+}
+
+.child1 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #80ffdb, #7400b8);
+    position: absolute;
+    top: 150px;
+}
+
+.parent2 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ff0a54;
+}
+
+.child2 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #80ffdb, #7400b8);
+    position: absolute;
+    bottom: 50px;
+}
+
+.parent3 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ff0a54;
+}
+
+.child3 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #80ffdb, #7400b8);
+    position: absolute;
+    left: 300px;
+}
+
+.parent4 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ff0a54;
+}
+
+.child4 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #80ffdb, #7400b8);
+    position: absolute;
+    right: 200px;
+}
+
+.parent5 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ff0a54;
+}
+
+.child5 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #80ffdb, #7400b8);
+    position: absolute;
+    top: -100px;
+}
+
+.parent6 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ff0a54;
+}
+
+.child6 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #80ffdb, #7400b8);
+    position: absolute;
+    top: -50px;
+    left: 50px;
+}

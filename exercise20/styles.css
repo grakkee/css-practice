@@ -1,0 +1,31 @@
+/*Styling elements with an outline. Outline can be used like a border for the border of an element*/
+
+/*note: outline does not obey 1-to-4 syntax like a border does*/
+
+.a {
+    border: 8px dashed #ff0080;
+    outline-style: solid;
+    width: 200px;
+    height: 200px;
+    background-color: #ffab4c;
+    outline-width: 12px;
+}
+
+.b {
+    border: 8px dashed #ff0080;
+    width: 200px;
+    height: 200px;
+    background-color: #ffab4c;
+    outline-style: dotted;
+    outline-width: 8px;
+}
+
+.c {
+    border: 8px dashed #ff0080;
+    width: 200px;
+    height: 200px;
+    background-color: #ffab4c;
+    outline-style: dotted;
+    outline-width: 8px;
+    outline-color: purple;
+}

@@ -1,0 +1,38 @@
+/*styling elements with a border*/
+
+/*notes on border width: 
+-You can change all four sides with a single value using border-width
+-You can change the top/bottom and left/right values with two values respectively using border-width: xpx ypx
+-Finally, you can change individual sides with border-width-top, border-width-bottom, etc*/
+
+/*notes on border style:
+-There are nine options: none, solid, double, dashed, dotted, groove, ridge, inset, outset
+-using the 1-to-4 syntax, you can include up to four values in border-style which applies to each side in clockwise order*/ 
+
+/*the 1-to-4 syntax works with all the border style options*/
+
+.a {
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    background-color: #fffb00;
+    border-width: 10px;
+    border-radius: 50%;
+}
+
+.b {
+    width: 200px;
+    height: 200px;
+    background-color: #84dfff;
+    border-style: double;
+    border-width: 15px;
+}
+
+.c {
+    width: 200px;
+    height: 200px;
+    background-color: #ff5f7e;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: #b000b9;
+}

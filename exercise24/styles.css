@@ -1,0 +1,20 @@
+/*creating color gradients using background-image. three options: linear-gradient, radial-gradient, conic-gradient
+it accepts direction or degrees and multiple colors for parameters*/
+
+.a {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, #07fdc8, #ffff00);
+}
+
+.b {
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(#07fdc8, #ffff00, #275ed3);
+}
+
+.c {
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(#07fdc8, #ffff00, #f83df8);
+}

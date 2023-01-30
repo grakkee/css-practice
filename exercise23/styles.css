@@ -1,0 +1,14 @@
+/*margins give space around an element (outside the border)*/
+
+.img-one {
+    width: 200px;
+    height: 200px;
+    border: 10px groove #ff0256;
+    margin: 20px;
+}
+.img-two {
+    width: 200px;
+    height: 200px;
+    border: 10px ridge #9a02ff;
+    margin: 20px;
+}

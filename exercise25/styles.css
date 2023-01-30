@@ -1,0 +1,74 @@
+/*exploring the position property*/
+
+.parent1 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue;
+}
+
+.child1 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to left bottom, #f72585, #7209b7);
+    position: static;
+    top: 50px;
+    left: 150px;
+}
+
+.parent2 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue;
+}
+
+.child2 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom left, #f72586, #7209b7);
+    position: relative;
+    left: 50px;
+}
+
+.parent3 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue;
+}
+
+.child3 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom left, #f72585, #7209b7);
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.parent4 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue;
+}
+
+.child4 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom left, #f72585, #7209b7);
+    position: fixed;
+    top: 10px;
+    left: 200px;
+}
+
+parent5 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue;
+}
+
+.child5 {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to left bottom, #f72585, #7209b7);
+    position: sticky;
+    top: 50px;
+}

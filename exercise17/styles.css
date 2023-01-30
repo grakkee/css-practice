@@ -1,0 +1,6 @@
+/*changing the height and width of an element*/
+div {
+    height: 400px;
+    background-color: #8a2be2;
+    width: 400px;
+  }

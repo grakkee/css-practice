@@ -1,0 +1,51 @@
+/*transform-origin property - it takes x, y and z values!*/
+
+.a {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, #ff19ec, #00f7ff);
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+    left:500px;
+    transition: transform 2s;
+  }
+  
+.a:hover {
+    transform: rotate(360deg);
+    transform-origin:(right, center);
+  }
+
+.b {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, #eeff00, #14ff62);
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    transition: transform 2s;
+  }
+  
+.b:hover {
+    transform: rotate(360deg);
+    transform-origin: bottom;
+  }
+
+.c {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, #ff008c, #c814ff);
+    position: relative;
+    top: 50px;
+    left: 200px;
+    transition: transform 2s;
+  }
+  
+.c:hover {
+    transform: rotate(360deg);
+    transform-origin: bottom right;
+  }
+  
+  
+  

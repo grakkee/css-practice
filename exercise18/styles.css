@@ -1,0 +1,24 @@
+/*exploring different units of css*/
+
+.a {
+    color: #ff0075;
+    font-size: 40px;
+}
+
+.b {
+    color: #00ffff;
+    background-color: #212121;
+    font-size: 3em;
+}
+
+.c {
+    color: #161853;
+    background-color: #ebe645;
+    font-size: 4rem;
+}
+
+h1 {
+    color: #00ff95;
+    background-color: #ff006a;
+    font-size: 80%;
+}
